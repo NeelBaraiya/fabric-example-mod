@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "moretridentenchantments",
+  "id": "modid",
   "version": "${version}",
 
-  "name": "More Trident Enchantments",
+  "name": "Example Mod",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Neel Baraiya"
+    "Me!"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
-  "license": "MIT",
+  "license": "CC0-1.0",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.neel.moretridentenchantments.moreTridentEnchantments"
+      "net.fabricmc.example.ExampleMod"
     ]
   },
   "mixins": [
-    "moretridentenchantments.mixins.json"
+    "modid.mixins.json"
   ],
 
   "depends": {
